@@ -22,25 +22,24 @@ Here’s what you’ll find in this repo:
 ## 🚀 Quick Start  
 ### Prerequisites  
 - Python 3.x installed.  
-- Recommended: create a virtual environment to isolate dependencies.  
-- Required Python packages (install via `pip install -r requirements.txt` if you add this file).
+- Recommended: create a virtual environment to isolate dependencies.
 
 ### Usage  
 1. To generate training data:
    
-python data_setMaker.py
+`python data_setMaker.py`
 
 2. To train or retrain the model:  
 
-python trainer.py
+`python trainer.py`
 
 3. To test the pretrained or newly trained model on example problems:  
 
-python model_test.py
+`python model_test.py`
 
 4. To make predictions on custom problems:  
 
-python predict.py
+`python predict.py`
 
 ## Performance  
 - The repository contains `accuracy_vs_digits.png` illustrating model accuracy relative to problem complexity.
