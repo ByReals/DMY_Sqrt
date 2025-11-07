@@ -3,9 +3,9 @@ import torch.nn as nn
 
 # === Configuration (must match training) ===
 class Config:
-    model_name = "DMYsqrt"
+    model_name = "DMY_MathTrainer"
     block_size = 30
-    vocab = ['<PAD>', '<EOS>'] + list("0123456789+=")
+    vocab = ['<PAD>', '<EOS>'] + list("0123456789+-×÷=")
     embedding_dim = 256
     n_layers = 8
     n_heads = 8
